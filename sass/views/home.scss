@@ -1,0 +1,39 @@
+/*-----------------------------------------------
+	Homepage
+-----------------------------------------------*/
+
+.home-page {
+	background: url('images/home-bg.jpg') no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+} 
+
+.home-page .site-header,
+.home-page .site-footer,
+.home-page .entry {
+	background: none;
+}
+
+
+.home-page .genesis-nav-menu a {
+	color: #fff;
+}
+
+.site-title {
+	background: url('images/logo-white.svg') no-repeat;
+	display: block;
+	height: 100px;
+	position: relative;
+	width: 300px;
+}
+
+.site-title a {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
