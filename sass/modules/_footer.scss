@@ -1,0 +1,60 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+	background-color: #fff;
+	font-size: 18px;
+	font-size: 1.8rem;
+	clear: both;
+	padding: 60px 0;
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	/*width: 380px;*/
+	width: 29.6875%;
+	float: left;
+	margin-left: 5.46875%;
+}
+
+.footer-widgets-1 {
+	/*margin-right: 70px;*/
+	margin-left: 0;
+}
+
+/*.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}*/
+
+
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+	background-color: #fff;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1;
+	padding: 60px 0;
+	text-align: center;
+
+	 p {
+		margin-bottom: 0;
+	}
+}
+
+/* Clear input fields' placeholder text on focus */
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+.page .entry-title {
+	margin-bottom: 24px;
+}
